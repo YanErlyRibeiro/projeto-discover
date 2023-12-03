@@ -25,6 +25,7 @@
   body {
   
   background: var(--bg-url) no-repeat top center/cover;
+  height: 100px;
 }
   
 
@@ -34,8 +35,7 @@ body * {
 }
 
 #container {
-  width: 100px;
-  max-width: 588px ;
+  width: 356px;
   margin: 56px auto 0px;
   padding: 0 24px;
 }
@@ -165,3 +165,14 @@ ul li a {
     font-size: 14px; 
   }
 
+  /*media queries*/
+@media (min-width: 700px){
+  :root {
+    --br-url: url(./assets/bg-desktop.jpg);
+
+  }
+  .light {
+    --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
+}
+ 
